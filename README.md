@@ -53,9 +53,12 @@ and obtain that 1,022 repos have 1 watcher, 176 repos have 2 watchers, and so on
     dev.off()
 
 The resulting distribution is:
-![image](watchers_per_repo.png "Watchers per repository")
+
+![image](scouts/raw/master/watchers_per_repo.png "Watchers per repository")
+
 For clarity, I also plot the distribution, limited to the interval 1~30 watchers:
-![image](watchers_per_repo_detail.png "Watchers per repository (detail)")
+
+![image](scouts/raw/master/watchers_per_repo_detail.png "Watchers per repository (detail)")
     
 ## Looking for talented scouts
 
@@ -164,7 +167,8 @@ For clarity, I plot the distribution of the 20,576 users in the analysis by crea
     dev.off()
 
 The distribution is:
-![image](users_per_date.png "Users per creation date")
+
+![image](scouts/raw/master/users_per_date.png "Users per creation date")
 
 The following [Python code](http://github.com/claudiob/scouts/blob/master/scouts.py) restricts the scouts to those created in 2010:
 
